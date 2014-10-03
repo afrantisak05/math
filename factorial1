@@ -1,0 +1,14 @@
+a=raw_input("type a number ")
+a=int(a)
+c = 1
+for b in range(a):
+    #print "B", b,
+    #print "C", c
+    c = c * (b + 1)
+print "the factorial of", a, "is", c
+
+
+
+#    ("a*2=b*3=c*4=d*5=e*6=f")
+#    ("f=answer")
+#    print f
